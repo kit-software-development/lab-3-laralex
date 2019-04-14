@@ -38,7 +38,7 @@
             // 
             this.btn.AllowDrop = true;
             this.btn.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn.Location = new System.Drawing.Point(398, 206);
+            this.btn.Location = new System.Drawing.Point(85, 50);
             this.btn.Name = "btn";
             this.btn.Size = new System.Drawing.Size(75, 23);
             this.btn.TabIndex = 0;
@@ -48,14 +48,15 @@
             // pnlContent
             // 
             this.pnlContent.Controls.Add(this.btn);
+            this.pnlContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContent.Location = new System.Drawing.Point(0, 0);
             this.pnlContent.Name = "pnlContent";
-            this.pnlContent.Size = new System.Drawing.Size(1417, 762);
+            this.pnlContent.Size = new System.Drawing.Size(1149, 581);
             this.pnlContent.TabIndex = 1;
             // 
             // GameForm
             // 
-            this.ClientSize = new System.Drawing.Size(1417, 762);
+            this.ClientSize = new System.Drawing.Size(1149, 581);
             this.Controls.Add(this.pnlContent);
             this.MinimumSize = new System.Drawing.Size(316, 339);
             this.Name = "GameForm";
