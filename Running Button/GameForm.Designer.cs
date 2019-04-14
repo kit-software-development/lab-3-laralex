@@ -38,12 +38,13 @@
             // 
             this.btn.AllowDrop = true;
             this.btn.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn.Location = new System.Drawing.Point(85, 50);
+            this.btn.Location = new System.Drawing.Point(12, 421);
             this.btn.Name = "btn";
             this.btn.Size = new System.Drawing.Size(75, 23);
             this.btn.TabIndex = 0;
             this.btn.Text = "Push Me !";
             this.btn.UseVisualStyleBackColor = true;
+            this.btn.Click += new System.EventHandler(this.OnButtonClick);
             // 
             // pnlContent
             // 
@@ -51,12 +52,13 @@
             this.pnlContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContent.Location = new System.Drawing.Point(0, 0);
             this.pnlContent.Name = "pnlContent";
-            this.pnlContent.Size = new System.Drawing.Size(1149, 581);
+            this.pnlContent.Size = new System.Drawing.Size(677, 465);
             this.pnlContent.TabIndex = 1;
+            this.pnlContent.MouseMove += new System.Windows.Forms.MouseEventHandler(this.OnMouseOnForm);
             // 
             // GameForm
             // 
-            this.ClientSize = new System.Drawing.Size(1149, 581);
+            this.ClientSize = new System.Drawing.Size(677, 465);
             this.Controls.Add(this.pnlContent);
             this.MinimumSize = new System.Drawing.Size(316, 339);
             this.Name = "GameForm";
