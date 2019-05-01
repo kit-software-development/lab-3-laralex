@@ -54,6 +54,7 @@
             this.pnlContent.Name = "pnlContent";
             this.pnlContent.Size = new System.Drawing.Size(677, 465);
             this.pnlContent.TabIndex = 1;
+            this.pnlContent.MouseEnter += new System.EventHandler(this.OnMouseEnter);
             this.pnlContent.MouseMove += new System.Windows.Forms.MouseEventHandler(this.OnMouseOnForm);
             // 
             // GameForm
